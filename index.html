@@ -109,10 +109,10 @@ s
                         <i class="fas fa-envelope mail"></i> <span class="text-white text-mail">MAIL ME.</span>
                     </center>
                 </a>
-                <a href="mailto:bagusrahardjo6@gmail.com" class="mail-address d-none d-md-block" data-aos="fade-left">
+                <a href="mailto:bagusrahardjo6@gmail.com" class="mail-address" data-aos="fade-left">
                     bagusrahardjo6@gmail.com
                 </a>
-                <a href="mailto:bagusrahardjo6@gmail.com" class="mail-address2 d-block d-md-none" data-aos="fade-left">
+                <a href="mailto:bagusrahardjo6@gmail.com" class="mail-address3" data-aos="fade-left">
                     bagusrahardjo6@gmail.com
                 </a>
             </div>
@@ -299,6 +299,23 @@ s
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        (function() {
+            window.onresize = displayWindowSize;
+            window.onload = displayWindowSize;
+
+            function displayWindowSize() {
+                let myWidth = window.innerWidth;
+
+                if (myWidth > 767) {
+                    $(".mail-address").css("display","block");
+                    $(".mail-address3").css("display","none");
+                } else {
+                    $(".mail-address").css("display","none");
+                    $(".mail-address3").css("display","block");
+                }
+            }
+        })();
+
         $(document).ready(function() {
             var navbar2 = document.getElementById("navbar2");
             var currentScrollPos = window.pageYOffset;

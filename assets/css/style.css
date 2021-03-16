@@ -122,6 +122,18 @@ canvas {
   border-bottom: 2px solid rgb(73, 219, 73);
   padding-bottom: 2px;
 }
+.mail-address3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  color: #a5a5a5;
+  text-decoration: none;
+}
+.mail-address3:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(73, 219, 73);
+  padding-bottom: 2px;
+}
 
 @media(max-width: 377px) {
   .img-brand {
