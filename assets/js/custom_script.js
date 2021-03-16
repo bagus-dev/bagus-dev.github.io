@@ -9,6 +9,8 @@
             $(".mail-address").css("display","block");
             $(".mail-address3").css("display","none");
             $(".foto-pribadi").addClass("img-fluid");
+            $("#center-img").css("display","none");
+            $("#img-bagus").css("display","block");
             $("#top-link").removeClass("mt-3");
             $("#top-link").addClass("mt-4");
             $("#intro-link").removeClass("mt-3");
@@ -21,6 +23,8 @@
             $(".mail-address").css("display","none");
             $(".mail-address3").css("display","block");
             $(".foto-pribadi").removeClass("img-fluid");
+            $("#center-img").css("display","block");
+            $("#img-bagus").css("display","none");
             $("#top-link").removeClass("mt-4");
             $("#top-link").addClass("mt-3");
             $("#intro-link").removeClass("mt-4");
