@@ -8,6 +8,7 @@
         if (myWidth > 767) {
             $(".mail-address").css("display","block");
             $(".mail-address3").css("display","none");
+            $(".foto-pribadi").addClass("img-fluid");
             $("#top-link").removeClass("mt-3");
             $("#top-link").addClass("mt-4");
             $("#intro-link").removeClass("mt-3");
@@ -19,6 +20,7 @@
         } else {
             $(".mail-address").css("display","none");
             $(".mail-address3").css("display","block");
+            $(".foto-pribadi").removeClass("img-fluid");
             $("#top-link").removeClass("mt-4");
             $("#top-link").addClass("mt-3");
             $("#intro-link").removeClass("mt-4");
