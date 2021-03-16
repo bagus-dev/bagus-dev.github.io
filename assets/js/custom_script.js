@@ -11,8 +11,8 @@
             $(".foto-pribadi").addClass("img-fluid");
             $("#center-img").css("display","none");
             $("#img-bagus").css("display","block");
-            $(".text-custom").removeClass("text-center");
-            $(".paragraph-1").removeClass("text-center");
+            $(".text-1").removeClass("text-center");
+            $(".text-2").removeClass("text-center");
             $("#top-link").removeClass("mt-3");
             $("#top-link").addClass("mt-4");
             $("#intro-link").removeClass("mt-3");
@@ -27,8 +27,8 @@
             $(".foto-pribadi").removeClass("img-fluid");
             $("#center-img").css("display","block");
             $("#img-bagus").css("display","none");
-            $(".text-custom").addClass("text-center");
-            $(".paragraph-1").addClass("text-center");
+            $(".text-1").removeClass("text-center");
+            $(".text-2").removeClass("text-center");
             $("#top-link").removeClass("mt-4");
             $("#top-link").addClass("mt-3");
             $("#intro-link").removeClass("mt-4");
