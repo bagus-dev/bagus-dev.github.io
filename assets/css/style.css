@@ -31,7 +31,7 @@ body {
   width: 250px;
 }
 canvas {
-  margin-top: -10%;
+  margin-top: -8%;
 }
 .title {
   z-index: 10;
@@ -141,7 +141,7 @@ canvas {
     width: 325px;
   }
   canvas {
-    margin-top: -50%;
+    margin-top: -52%;
   }
   .title {
     top: 48.5%;
