@@ -6,8 +6,8 @@
         let myWidth = window.innerWidth;
 
         if (myWidth > 767) {
-            $(".mail-address").css("display","block");
-            $(".mail-address3").css("display","none");
+            $("#btn-pc").css("display","block");
+            $("#btn-mobile").css("display","none");
             $(".foto-pribadi").addClass("img-fluid");
             $("#center-img").css("display","none");
             $("#img-bagus").css("display","block");
@@ -22,8 +22,8 @@
             $("#contact-link").removeClass("mt-3");
             $("#contact-link").addClass("mt-4");
         } else {
-            $(".mail-address").css("display","none");
-            $(".mail-address3").css("display","block");
+            $("#btn-pc").css("display","block");
+            $("#btn-mobile").css("display","none");
             $(".foto-pribadi").removeClass("img-fluid");
             $("#center-img").css("display","block");
             $("#img-bagus").css("display","none");
