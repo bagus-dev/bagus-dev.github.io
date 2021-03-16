@@ -44,6 +44,29 @@
 
     <nav id="navbar2" class="navbar navbar-expand-md navbar-dark py-0">
         <div class="container">
+            <a href="http://portofolio.ukmkamus.com" class="navbar-brand my-2">
+                <img src="assets/images/web_dev.jpg" alt="WEB DEV" class="img-brand2">
+            </a>
+
+            <ul class="navbar-nav flex-row ml-auto justify-content-between" id="navbarNav">
+                <li class="nav-item">
+                    <a href="#top" class="nav-link mt-2 mr-4 active">TOP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#intro" class="nav-link mt-2 mr-4">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link mt-2 mr-4">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link mt-2">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="navbar3" class="navbar navbar-expand-md navbar-dark py-0">
+        <div class="container">
             <ul class="navbar-nav flex-row justify-content-between" id="navbarNav">
                 <li class="nav-item">
                     <a href="#top" class="nav-link mt-2 mr-4 active">TOP</a>
@@ -315,22 +338,40 @@ s
         $(document).ready(function() {
             var navbar2 = document.getElementById("navbar2");
             var currentScrollPos = window.pageYOffset;
+            var width = window.innerWidth;
 
             if(currentScrollPos > 100) {
-                navbar2.style.top = "0";
+                if(width > 767) {
+                    navbar2.style.top = "0";
+                } else {
+                    navbar3.style.top = "0";
+                }
             } else {
-                navbar2.style.top = "-100px";
+                if(width > 767) {
+                    navbar2.style.top = "-100px";
+                } else {
+                    navbar3.style.top = "-100px";
+                }
             }
         });
 
         window.onscroll = function() {
             var navbar2 = document.getElementById("navbar2");
             var currentScrollPos = window.pageYOffset;
+            var width = window.innerWidth;
 
             if(currentScrollPos > 100) {
-                navbar2.style.top = "0";
+                if(width > 767) {
+                    navbar2.style.top = "0";
+                } else {
+                    navbar3.style.top = "0";
+                }
             } else {
-                navbar2.style.top = "-100px";
+                if(width > 767) {
+                    navbar2.style.top = "-100px";
+                } else {
+                    navbar3.style.top = "-100px";
+                }
             }
         }
 
