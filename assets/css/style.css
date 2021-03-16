@@ -167,7 +167,8 @@ canvas {
     left: 69%;
   }
   .foto-pribadi {
-    width: 100px;
+    width: 100px !important;
+    height: auto;
   }
 }
 .title h3 {
