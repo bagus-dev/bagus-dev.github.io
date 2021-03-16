@@ -26,16 +26,16 @@
 
                 <ul class="navbar-nav flex-row ml-auto justify-content-between" id="navbarNav">
                     <li class="nav-item">
-                        <a href="#top" class="nav-link mt-4 mr-4 active">TOP</a>
+                        <a href="#top" class="nav-link mt-4 mr-4 active" id="top-link">TOP</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#intro" class="nav-link mt-4 mr-4">INTRO</a>
+                        <a href="#intro" class="nav-link mt-4 mr-4" id="intro-link">INTRO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projects" class="nav-link mt-4 mr-4">PROJECTS</a>
+                        <a href="#projects" class="nav-link mt-4 mr-4" id="project-link">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link mt-4">CONTACT</a>
+                        <a href="#contact" class="nav-link mt-4" id="contact-link">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -328,9 +328,25 @@ s
                 if (myWidth > 767) {
                     $(".mail-address").css("display","block");
                     $(".mail-address3").css("display","none");
+                    $("#top-link").removeClass("mt-3");
+                    $("#top-link").addClass("mt-4");
+                    $("#intro-link").removeClass("mt-3");
+                    $("#intro-link").addClass("mt-4");
+                    $("#project-link").removeClass("mt-3");
+                    $("#project-link").addClass("mt-4");
+                    $("#contact-link").removeClass("mt-3");
+                    $("#contact-link").addClass("mt-4");
                 } else {
                     $(".mail-address").css("display","none");
                     $(".mail-address3").css("display","block");
+                    $("#top-link").removeClass("mt-4");
+                    $("#top-link").addClass("mt-3");
+                    $("#intro-link").removeClass("mt-4");
+                    $("#intro-link").addClass("mt-3");
+                    $("#project-link").removeClass("mt-4");
+                    $("#project-link").addClass("mt-3");
+                    $("#contact-link").removeClass("mt-4");
+                    $("#contact-link").addClass("mt-3");
                 }
             }
         })();
