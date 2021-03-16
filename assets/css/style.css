@@ -170,6 +170,9 @@ canvas {
     width: 220px !important;
     height: auto;
   }
+  .text-custom {
+    font-size: 20pt;
+  }
 }
 .title h3 {
   position: absolute;
