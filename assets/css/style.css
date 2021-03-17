@@ -141,7 +141,7 @@ canvas {
     margin-left: 15px !important;
   }
   .navbar-brand {
-    margin-left: 4px;
+    margin-left: 3px;
   }
 }
 @media(min-width: 381px) and (max-width: 420px) {
