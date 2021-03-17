@@ -136,7 +136,7 @@ canvas {
   padding-bottom: 2px;
 }
 
-@media(max-width: 380px) {
+@media(max-width: 382px) {
   #navbarNav {
     margin-left: 15px !important;
   }
@@ -144,7 +144,7 @@ canvas {
     margin-left: 3px;
   }
 }
-@media(min-width: 381px) and (max-width: 420px) {
+@media(min-width: 383px) and (max-width: 420px) {
   #navbarNav {
     margin-left: 38px !important;
   }
