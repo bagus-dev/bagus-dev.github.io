@@ -136,6 +136,22 @@ canvas {
   padding-bottom: 2px;
 }
 
+@media(max-width: 380px) {
+  #navbarNav {
+    margin-left: 20px !important;
+  }
+  .navbar-brand {
+    margin-left: 3px;
+  }
+}
+@media(min-width: 381px) and (max-width: 420px) {
+  #navbarNav {
+    margin-left: 38px !important;
+  }
+  .navbar-brand {
+    margin-left: 20px;
+  }
+}
 @media(max-width: 767px) {
   .img-brand {
     width: 325px;
@@ -145,9 +161,6 @@ canvas {
   }
   .title {
     top: 48.5%;
-  }
-  #navbarNav {
-    margin-left: 14px !important;
   }
   .line-1 {
     top: 68.5%;
