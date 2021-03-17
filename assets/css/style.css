@@ -138,7 +138,7 @@ canvas {
 
 @media(max-width: 380px) {
   #navbarNav {
-    margin-left: 20px !important;
+    margin-left: 15px !important;
   }
   .navbar-brand {
     margin-left: 4px;
